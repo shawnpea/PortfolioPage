@@ -1,0 +1,81 @@
+<header>
+  <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/css?family=Rufina" rel="stylesheet">
+  <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+
+  <link href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css' rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+  <script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+</script>
+</header>
+
+<body>
+  <div class="container-fluid">
+    <ul class="nav nav-pills
+ navbar-fixed-top">
+    <li class="pull-left">
+        <a href="#">SVPEA</a>
+    </li>
+      <li class="pull-right">
+        <a href="#">Contact</a>
+      </li>
+      <li class="pull-right">
+        <a href="#">Portfolio</a>
+      </li>
+      <li class="pull-right">
+        <a href="#aboutme">About Me</a>
+      </li>
+      <li class="pull-right">
+        <a href="#">Home</a>
+      </li>
+    </ul>
+  </div>
+  <div class="pgone">
+    <div class=" block text-center">
+      <h1>Shawn Pea</h1>
+      <p>Aspiring Software Engineer.
+      </p>
+    </div>
+  </div>
+
+  <div id="aboutme" class="pgtwo">
+    <div class="row">
+      <div class=" block text-center">
+
+        <h2>About Me</h2>
+
+
+
+      </div>
+    </div>
+  </div>
+
+
+  </body
