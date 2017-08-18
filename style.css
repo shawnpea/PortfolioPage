@@ -10,11 +10,13 @@
 }
 
 .pgone {
-  background: url("https://source.unsplash.com/Y97TTgIvddY/3358x2239");
-  background-size: cover;
-  height: 800px;
-  padding: 50px;
+    background: url("https://source.unsplash.com/3kzlCL3rj8A/9444×5770");
+    background-size: cover;
+    height: 800px;
+    padding: 50px;
+    linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) );
 }
+
 
 
 
@@ -24,10 +26,11 @@ body {
 }
 
 h1 {
-  padding: 50px 0 25px 0;
-  margin-top: 0px;
-  font-size: 50px;
-  color: white;
+    padding: 100px 0 25px 0;
+    margin-top: 0px;
+    font-size: 85px;
+    color: white;
+    font-family: 'Abel', sans-serif;
 }
 
 p {
@@ -39,9 +42,18 @@ p {
 h2 {
   font-family: 'Roboto Condensed', sans-serif;
   font-size: 35px;
-  font-decoration: bold;
+
   margin-left: 25px;
   color: #000000;
 
 
+}
+
+h3 {
+  color:#000000;
+
+}
+
+h4{
+  color: #000000;
 }
